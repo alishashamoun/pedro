@@ -26,9 +26,9 @@
                                 <th>{{ __('user/job/show.location_gated_property') }}</th>
                                 <td>
                                     @if ($job->location_gated_property == 'on')
-                                    <span class="badge badge-success">{{ __('user/job/show.yes') }}</span>
+                                    <span class="badge bg-success">{{ __('user/job/show.yes') }}</span>
                                     @else
-                                    <span class="badge badge-danger">{{ __('user/job/show.no') }}</span>
+                                    <span class="badge bg-danger">{{ __('user/job/show.no') }}</span>
                                     @endif
                                 </td>
                             </tr>

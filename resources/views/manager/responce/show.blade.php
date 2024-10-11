@@ -57,11 +57,11 @@
                                                         {{-- <td>{{ $responses->checklistItem->description ?? '' }}</td> --}}
                                                         <td>
                                                             @if ($result->rating === 'red')
-                                                                <span class="badge badge-danger">{{ __('admin/checklist/index.red') }}</span>
+                                                                <span class="badge bg-danger">{{ __('admin/checklist/index.red') }}</span>
                                                             @elseif ($result->rating === 'yellow')
-                                                                <span class="badge badge-warning">{{ __('admin/checklist/index.yellow') }}</span>
+                                                                <span class="badge bg-warning">{{ __('admin/checklist/index.yellow') }}</span>
                                                             @elseif ($result->rating === 'green')
-                                                                <span class="badge badge-success">{{ __('admin/checklist/index.green') }}</span>
+                                                                <span class="badge bg-success">{{ __('admin/checklist/index.green') }}</span>
                                                             @endif
                                                         </td>
                                                         <td>{{ $result->remarks }}</td>

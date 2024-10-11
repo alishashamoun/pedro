@@ -39,7 +39,7 @@
 
                                 </div>
                                 <!-- /.card-header -->
-                                <div class="card-body">
+                                <div class="card-body table-responsive">
                                     <table id="example1" class="table table-bordered table-striped table-responsive">
                                         <thead>
                                             <tr>
@@ -75,13 +75,13 @@
                                                     <tr>
                                                         <td>
                                                             @if (!empty($estimate->jobs))
-                                                                <span class="badge badge-primary"><a class="text-light"
+                                                                <span class="badge bg-primary"><a class="text-light"
                                                                         href="{{ route('job.edit', $estimate->jobs->id) }}">Converted
                                                                         to job#{{ $estimate->jobs->id }} <i
                                                                             class="fas fa-external-link-alt"></i></a></span>
                                                             @else
                                                                 <input type="checkbox" name="selected_estimates[]"
-                                                                    class="form-control form-control-sm"
+                                                                    class="form-check-input"
                                                                     value="{{ $estimate->id }}">
                                                             @endif
 
@@ -150,7 +150,7 @@
                                                         </td>
                                                         <td class="d-flex">
                                                             {{-- @if (!empty($estimate->jobs))
-                                                            <span class="badge badge-primary">Converted to job</span>
+                                                            <span class="badge bg-primary">Converted to job</span>
                                                         @else
                                                             <form
                                                                 action="{{ route('estimates.updateSelectedJobs', $estimate) }}"

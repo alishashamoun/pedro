@@ -58,9 +58,9 @@
                                                     <td>{{ $supplies->order_ref }}</td>
                                                     <td>
                                                         @if ($supplies->order_progress === 'Open')
-                                                            <span class="badge badge-success">Open</span>
+                                                            <span class="badge bg-success">Open</span>
                                                         @elseif ($supplies->order_progress === 'Close')
-                                                            <span class="badge badge-danger">Close</span>
+                                                            <span class="badge bg-danger">Close</span>
                                                         @endif
                                                     </td>
 

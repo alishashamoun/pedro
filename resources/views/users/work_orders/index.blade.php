@@ -81,11 +81,11 @@
 
                                                     <td class="text-wrap">
                                                         @if ($workOrder->status == 'pending')
-                                                            <span class="badge badge-warning">{{ __('user/work_order/index.waiting_for_vendor_to_accept') }}</span>
+                                                            <span class="badge bg-warning">{{ __('user/work_order/index.waiting_for_vendor_to_accept') }}</span>
                                                         @elseif ($workOrder->JobLocation)
-                                                            <span class="badge badge-success">{{ __('user/work_order/index.location_saved') }}</span>
+                                                            <span class="badge bg-success">{{ __('user/work_order/index.location_saved') }}</span>
                                                         @else
-                                                            <span class="badge badge-danger">
+                                                            <span class="badge bg-danger">
                                                                 {{ __('user/work_order/index.please_provide_a_job_location') }}
                                                             </span>
                                                             <button type="button" class="btn btn-primary open-map-modal"

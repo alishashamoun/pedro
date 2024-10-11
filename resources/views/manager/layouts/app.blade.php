@@ -64,7 +64,7 @@
                             <img src="{{ asset('assets/imgs/flag.png') }}" alt="Spain Flag" width="32"
                                 height="auto">
                         @endif
-                        <span class="badge badge-success navbar-badge">{{ app()->getLocale() }}</span>
+                        <span class="badge bg-success navbar-badge">{{ app()->getLocale() }}</span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right" style="left: inherit; right: 0px;">
                         <span class="dropdown-item dropdown-header">Select Language</span>
@@ -91,7 +91,7 @@
                     <a class="nav-link" data-bs-toggle="dropdown" href="#" aria-expanded="false">
                         <i class="far fa-bell"></i>
                         <span
-                            class="badge badge-danger navbar-badge">{{ auth()->user()->unreadnotifications->count() }}</span>
+                            class="badge bg-danger navbar-badge">{{ auth()->user()->unreadnotifications->count() }}</span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right" style="left: inherit; right: 0px;">
                         <span class="dropdown-item dropdown-header">{{ auth()->user()->unreadnotifications->count() }}

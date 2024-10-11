@@ -38,9 +38,9 @@
                                     <th>{{ __('vendor/manage_work_order/index.location_gated_property') }}</th>
                                     <td>
                                         @if ($job->location_gated_property == 'on')
-                                            <span class="badge badge-success">Yes</span>
+                                            <span class="badge bg-success">Yes</span>
                                         @else
-                                            <span class="badge badge-danger">No</span>
+                                            <span class="badge bg-danger">No</span>
                                         @endif
                                     </td>
                                 </tr>

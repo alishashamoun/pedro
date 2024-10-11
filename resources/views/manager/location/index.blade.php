@@ -61,7 +61,7 @@
                                                                 <div class="col-12">
 
                                                                     <label
-                                                                        for="location_{{ $location->id }}">{{ $location->name }}</label>
+                                                                        for="location_{{ $location->id }}" class="fs-2">{{ $location->name }}</label>
                                                                     @foreach ($checklists as $checklist)
                                                                         <div class="d-flex">
                                                                             @php
@@ -78,7 +78,7 @@
                                                                                     },
                                                                                 );
                                                                             @endphp
-                                                                            <input type="checkbox" class="form-check"
+                                                                            <input type="checkbox" class="form-check-input"
                                                                                 name="assignments[{{ $location->id }}][]"
                                                                                 value="{{ $checklist->id }}"
                                                                                 {{ $matchingInspection ? 'checked' : '' }}

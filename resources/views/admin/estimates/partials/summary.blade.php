@@ -200,7 +200,7 @@
     </div>
     <div class="col-md-4">
         <input {{ isset($estimate->location_gated_property) && $estimate->location_gated_property ? 'checked' : '' }}
-            type="checkbox" name="location_gated_property"
+            type="checkbox" name="location_gated_property" class="form-check-input"
             placeholder="Location Name(e.g Home or Office)">{{ __('admin/estimates/edit.location_gated_property') }}
     </div>
 </div>
@@ -271,7 +271,7 @@
             <label for="showDescription">{{ __('admin/estimates/edit.work_sub_category') }}</label>
             <input type="checkbox"
                 {{ isset($estimate->job_sub_cat_id) && $estimate->job_sub_cat_id ? 'checked' : '' }}
-                id="showDescription" name="job_sub_cat_id" class="form-control form-control-sm form-check">
+                id="showDescription" name="job_sub_cat_id" class="form-check-input">
             {{-- <select id="jobSubcategory" name="job_sub_cat_id" class="form-control">
                 <option value="">Select a job subcategory</option>
             </select> --}}

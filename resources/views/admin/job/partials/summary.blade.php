@@ -214,7 +214,7 @@
         </div>
     </div>
     <div class="col-md-4">
-        <input {{ isset($job->location_gated_property) && $job->location_gated_property ? 'checked' : '' }}
+        <input {{ isset($job->location_gated_property) && $job->location_gated_property ? 'checked' : '' }} class="form-check-input"
             type="checkbox" name="location_gated_property" placeholder="Location Name(e.g Home or Office)">
         {{ __('admin/job/edit.gated_property') }}
     </div>
@@ -281,7 +281,7 @@
         <div class="form-group">
             <label for="showDescription">Job Sub Category</label>
             <input type="checkbox" {{ isset($job->job_sub_cat_id) && $job->job_sub_cat_id ? 'checked' : '' }}
-                id="showDescription" name="job_sub_cat_id" class="form-control form-control-sm form-check">
+                id="showDescription" name="job_sub_cat_id" class="form-check-input">
             {{-- <select id="jobSubcategory" name="job_sub_cat_id" class="form-control">
                 <option value="">Select a job subcategory</option>
             </select> --}}
@@ -367,7 +367,7 @@
     <div class="form-group">
         <label for="showBill">{{ __('admin/job/edit.billable') }}</label>
         <input type="checkbox" {{ isset($job->billable) && $job->billable ? 'checked' : '' }} id="showBill"
-            name="billable" class="form-control form-control-sm form-check">
+            name="billable" class="form-check-input">
     </div>
 </div>
 {{-- <script>

@@ -108,17 +108,17 @@
                                                             $moods = [
                                                                 1 => [
                                                                     'label' => 'Very Happy',
-                                                                    'class' => 'badge-success',
+                                                                    'class' => 'bg-success',
                                                                 ],
-                                                                2 => ['label' => 'Happy', 'class' => 'badge-info'],
-                                                                3 => ['label' => 'Neutral', 'class' => 'badge-warning'],
-                                                                4 => ['label' => 'Sad', 'class' => 'badge-dark'],
-                                                                5 => ['label' => 'Very Sad', 'class' => 'badge-danger'],
+                                                                2 => ['label' => 'Happy', 'class' => 'bg-info'],
+                                                                3 => ['label' => 'Neutral', 'class' => 'bg-warning'],
+                                                                4 => ['label' => 'Sad', 'class' => 'bg-dark'],
+                                                                5 => ['label' => 'Very Sad', 'class' => 'bg-danger'],
                                                             ];
                                                             $moodData = $moods[$reports->mood] ?? null;
                                                             $badgeClass = $moodData
                                                                 ? 'badge ' . $moodData['class']
-                                                                : 'badge badge-secondary';
+                                                                : 'badge bg-secondary';
                                                             $moodText = $moodData ? $moodData['label'] : 'null';
                                                         @endphp
 

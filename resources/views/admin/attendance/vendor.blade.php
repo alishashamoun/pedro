@@ -36,15 +36,15 @@
                                     <td>
                                         @switch($attendances->attendance)
                                             @case('checkIn')
-                                                <span class="badge badge-success">{{ __('admin/attendance/vendor.check_in') }}</span>
+                                                <span class="badge bg-success">{{ __('admin/attendance/vendor.check_in') }}</span>
                                             @break
 
                                             @case('checkOut')
-                                                <span class="badge badge-danger">{{ __('admin/attendance/vendor.check_out') }}</span>
+                                                <span class="badge bg-danger">{{ __('admin/attendance/vendor.check_out') }}</span>
                                             @break
 
                                             @default
-                                                <span class="badge badge-secondary">{{ __('admin/attendance/vendor.unknown') }}</span>
+                                                <span class="badge bg-secondary">{{ __('admin/attendance/vendor.unknown') }}</span>
                                             @break
                                         @endswitch
                                     </td>

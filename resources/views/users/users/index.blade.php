@@ -27,7 +27,7 @@
               <div class="card-header">
                 <h3 class="card-title">Users List</h3>
               </div>
-              
+
               <!-- /.card-header -->
               <div class="card-body">
               <div class="pull-right">
@@ -58,14 +58,14 @@
                       <td>
                         @if(!empty($user->getRoleNames()))
                         @foreach($user->getRoleNames() as $v)
-                        <label class="badge badge-success">{{ $v }}</label>
+                        <label class="badge bg-success">{{ $v }}</label>
                         @endforeach
                         @endif
                       </td>
                       <td>
                         <div class="btn-group">
                           @can('user-edit')
-                          <a class="btn btn-primary" href="{{ route('users.edit',$user->id) }}">Edit</a>    
+                          <a class="btn btn-primary" href="{{ route('users.edit',$user->id) }}">Edit</a>
                           @endcan
                           @can('user-delete')
                           <form method="post" action="{{route('users.destroy',$user->id)}}">

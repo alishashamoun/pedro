@@ -66,7 +66,7 @@
                                 </tr>
                                 <tr>
                                     <th>Frequency:</th>
-                                    <td> <span class="badge badge-success">
+                                    <td> <span class="badge bg-success">
                                             {{ $estimate->frequency }}
                                         </span></td>
                                 </tr>

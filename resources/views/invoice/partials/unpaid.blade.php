@@ -30,7 +30,7 @@
                                 <td>{{ isset($inv->job->customer->name) ? $inv->job->customer->name : 'N/A' }}</td>
                                 <td>{{ $inv->id }}</td>
                                 <td>{{ isset($inv->job) ? $inv->job->po_no : 'N/A' }}</td>
-                                <td class=""> <label class="badge badge-danger ">{{ Str::ucfirst($inv->status)  }}</label></td>
+                                <td class=""> <label class="badge bg-danger ">{{ Str::ucfirst($inv->status)  }}</label></td>
                                 {{-- @dd($inv->unpaid->total) --}}
                                 <td>{{ isset($inv->unpaid) ? $inv->unpaid->total : 'N/A' }}
                                 </td>

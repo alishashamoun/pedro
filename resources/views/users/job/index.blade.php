@@ -189,7 +189,7 @@
                                                         @if ($jobs->current_status == 9)
                                                             @if (optional($jobs->feedback)->count() > 0)
                                                                 <span
-                                                                    class="badge badge-btn badge-success">{{ __('user/job/index.feedback_submitted') }}
+                                                                    class="badge bg-btn bg-success">{{ __('user/job/index.feedback_submitted') }}
                                                                 </span>
                                                             @else
                                                                 <button type="button" class="btn btn-success"

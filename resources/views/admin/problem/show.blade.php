@@ -50,13 +50,13 @@
                                             <th>{{ __('admin/problem/show.type_label') }}</th>
                                             <td>
                                                 @if ($problemReport->type_of_problem === 'critical')
-                                                    <span class="badge badge-danger">Critical</span>
+                                                    <span class="badge bg-danger">Critical</span>
                                                 @elseif ($problemReport->type_of_problem === 'high')
-                                                    <span class="badge badge-warning">High</span>
+                                                    <span class="badge bg-warning">High</span>
                                                 @elseif ($problemReport->type_of_problem === 'medium')
-                                                    <span class="badge badge-info">Medium</span>
+                                                    <span class="badge bg-info">Medium</span>
                                                 @elseif ($problemReport->type_of_problem === 'low')
-                                                    <span class="badge badge-success">Low</span>
+                                                    <span class="badge bg-success">Low</span>
                                                 @endif
                                             </td>
                                         </tr>

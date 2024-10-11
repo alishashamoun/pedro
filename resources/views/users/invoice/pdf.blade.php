@@ -46,17 +46,17 @@
             border-radius: 10px;
         }
 
-        .badge-danger {
+        .bg-danger {
             background-color: #dc3545;
             color: #fff;
         }
 
-        .badge-success {
+        .bg-success {
             background-color: #28a745;
             color: #fff;
         }
 
-        .badge-warning {
+        .bg-warning {
             background-color: #ffc107;
             color: #fff;
         }
@@ -144,7 +144,7 @@
                                     <li class="list-group-item">
                                         <strong>Status:</strong>
                                         <span
-                                            class="badge badge-{{ $invoice->status === 'unpaid' ? 'danger' : ($invoice->status === 'paid' ? 'uccess' : 'warning') }}">{{ Str::ucfirst($invoice->status) }}</span>
+                                            class="badge bg-{{ $invoice->status === 'unpaid' ? 'danger' : ($invoice->status === 'paid' ? 'uccess' : 'warning') }}">{{ Str::ucfirst($invoice->status) }}</span>
                                     </li>
                                     <li class="list-group-item">
                                         <strong>Drive Time:</strong>

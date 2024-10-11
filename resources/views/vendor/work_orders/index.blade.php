@@ -130,12 +130,12 @@
                                                                 </a>
                                                             </div>
                                                             @if (!$workOrder->JobLocation)
-                                                                <span class="badge badge-danger">No Job Location Set
+                                                                <span class="badge bg-danger">No Job Location Set
                                                                     Yet!</span>
                                                             @else
                                                                 @if ($workOrder->attendance->contains('attendance', 'checkOut'))
                                                                     <!-- Assuming you have a relationship set up -->
-                                                                    <span class="badge badge-success"
+                                                                    <span class="badge bg-success"
                                                                         style="background-color: #39cccc!important; color: black">Checked
                                                                         Out</span>
                                                                 @else

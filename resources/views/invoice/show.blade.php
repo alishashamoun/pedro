@@ -70,7 +70,7 @@
                                 </li>
                                 <li class="list-group-item">
                                     <strong>{{ __('vendor/invoice/index.status') }}:</strong>
-                                    <span class="badge badge-{{ $invoice->status === 'unpaid' ? 'danger' : ($invoice->status === 'paid' ? 'success' : 'warning') }}">{{ Str::ucfirst($invoice->status) }}</span>
+                                    <span class="badge bg-{{ $invoice->status === 'unpaid' ? 'danger' : ($invoice->status === 'paid' ? 'success' : 'warning') }}">{{ Str::ucfirst($invoice->status) }}</span>
                                 </li>
                                 <li class="list-group-item">
                                     <strong>{{ __('vendor/invoice/index.drive_time') }}:</strong>

@@ -68,7 +68,7 @@
                     <h2>Assignment and Status</h2>
                     <p><strong>Assigned Tech:</strong> {{ $job->assigned_tech }}</p>
                     <p><strong>Job Priority:</strong> {{ $job->job_prioirty->name ?? ''}}</p>
-                    <p><strong>Status:</strong> <span class="badge badge-success">{{ $job->parsedStatus }}</span>
+                    <p><strong>Status:</strong> <span class="badge bg-success">{{ $job->parsedStatus }}</span>
                     </p>
                 </div>
             </div>

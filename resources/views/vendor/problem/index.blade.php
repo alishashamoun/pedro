@@ -52,13 +52,13 @@
                                                     <td>{{ $report->location }}</td>
                                                     <td>
                                                         @if ($report->type_of_problem === 'critical')
-                                                            <span class="badge badge-danger">Critical</span>
+                                                            <span class="badge bg-danger">Critical</span>
                                                         @elseif ($report->type_of_problem === 'high')
-                                                            <span class="badge badge-warning">High</span>
+                                                            <span class="badge bg-warning">High</span>
                                                         @elseif ($report->type_of_problem === 'medium')
-                                                            <span class="badge badge-info">Medium</span>
+                                                            <span class="badge bg-info">Medium</span>
                                                         @elseif ($report->type_of_problem === 'low')
-                                                            <span class="badge badge-success">Low</span>
+                                                            <span class="badge bg-success">Low</span>
                                                         @endif
                                                     </td>
                                                     <td>

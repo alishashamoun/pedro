@@ -71,13 +71,13 @@
                                                     <td class="">
                                                         @if ($inv->status === 'unpaid')
                                                             <label
-                                                                class="badge badge-danger">{{ Str::ucfirst($inv->status) }}</label>
+                                                                class="badge bg-danger">{{ Str::ucfirst($inv->status) }}</label>
                                                         @elseif ($inv->status === 'paid')
                                                             <label
-                                                                class="badge badge-success">{{ Str::ucfirst($inv->status) }}</label>
+                                                                class="badge bg-success">{{ Str::ucfirst($inv->status) }}</label>
                                                         @elseif ($inv->status === 'recurring')
                                                             <label
-                                                                class="badge badge-warning">{{ Str::ucfirst($inv->status) }}</label>
+                                                                class="badge bg-warning">{{ Str::ucfirst($inv->status) }}</label>
                                                         @endif
                                                     </td>
 

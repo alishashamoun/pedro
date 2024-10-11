@@ -70,11 +70,11 @@
                                                 <td>{{ $responses->checklistItem->description ?? '' }}</td>
                                                 <td>
                                                     @if ($responses->rating === 'red')
-                                                        <span class="badge badge-danger">Red</span>
+                                                        <span class="badge bg-danger">Red</span>
                                                     @elseif ($responses->rating === 'yellow')
-                                                        <span class="badge badge-warning">Yellow</span>
+                                                        <span class="badge bg-warning">Yellow</span>
                                                     @elseif ($responses->rating === 'green')
-                                                        <span class="badge badge-success">Green</span>
+                                                        <span class="badge bg-success">Green</span>
                                                     @endif
                                                 </td>
                                                 <td>{{ $responses->remarks }}</td>

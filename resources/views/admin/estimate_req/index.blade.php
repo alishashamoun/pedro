@@ -35,7 +35,7 @@
                                     class="btn btn-primary">{{ __('admin/estimatereq/index.create_estimate_request') }}</a>
                             </div>
                             <!-- /.card-header -->
-                            <div class="card-body">
+                            <div class="card-body table-responsive">
                                 <table id="example1" class="table table-bordered table-striped">
                                     <thead>
                                         <tr>
@@ -72,7 +72,7 @@
                                                         <a href="{{ route('estimate_requests.show', $supplies->id) }}"
                                                             class="btn btn-info btn-sm ">{{ __('admin/estimatereq/index.show') }}</a>
                                                         <a href="{{ route('estimate_requests.vendors', $supplies->id) }}"
-                                                            class="btn btn-indigo btn-sm ml-1" data-bs-toggle="tooltip"
+                                                            class="btn btn-indigo btn-sm mx-1" data-bs-toggle="tooltip"
                                                             data-placement="top" title="Send to suppliers"><i
                                                                 class="fas fa-arrow-circle-right"></i></a>
 

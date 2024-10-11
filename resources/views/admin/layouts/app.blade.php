@@ -87,14 +87,14 @@
             <!-- Main Sidebar Container -->
             <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
                 <!-- Brand Logo -->
-                {{-- <div class="app-brand demo">
+                <div class="app-brand demo">
                     <a href="{{ route('admin.dashboard') }}" class="app-brand-link">
                         <span class="app-brand-logo demo">
                             <!-- Insert your SVG or image logo here -->
                             <img src="{{ asset('/admin/dist/img/AdminLTELogo.png') }}" alt="Admin Logo" width="30">
                         </span>
                         <span
-                            class="app-brand-text demo menu-text fw-bolder ms-2">{{ __('admin/layout/app.dashboard') }}</span>
+                            class="app-brand-text demo menu-text fw-bolder ms-2">Accur8</span>
                     </a>
 
                     <a href="javascript:void(0);"
@@ -106,7 +106,7 @@
                 <!-- User Panel -->
                 <div class="menu-inner-shadow"></div>
 
-                <div class="user-panel mt-3 pb-3 mb-3 d-flex align-items-center">
+                {{-- <div class="user-panel mt-3 pb-3 mb-3 d-flex align-items-center">
                     <div class="avatar avatar-online">
                         <img src="{{ asset('/admin/dist/img/user2-160x160.jpg') }}"
                             class="w-px-40 h-auto rounded-circle" alt="User Image">
@@ -332,7 +332,7 @@
                             // Problem Reporting
                             [
                                 'route' => 'problem.index',
-                                'icon' => 'bx bx-exclamation-octagon',
+                                'icon' => 'bx bx-calendar-exclamation',
                                 'label' => 'admin/layout/app.problem_reporting',
                                 'activeRoutes' => ['problem.*'],
                             ],
@@ -473,7 +473,7 @@
                             ],
                             [
                                 'route' => 'job-priority.index',
-                                'icon' => 'bx bx-sort-alpha-down',
+                                'icon' => 'bx bx-sort-alt-2',
                                 'label' => 'admin/layout/app.job_priority',
                                 'activeRoutes' => ['job-priority.*'],
                             ],
@@ -610,7 +610,7 @@
                                             width="32" height="auto">
                                     @endif
                                     <span
-                                        class="badge badge-success navbar-badge">{{ strtoupper(app()->getLocale()) }}</span>
+                                        class="badge bg-success navbar-badge">{{ strtoupper(app()->getLocale()) }}</span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end">
                                     <li>
@@ -653,7 +653,7 @@
                                     aria-expanded="false">
                                     <i class="far fa-bell"></i>
                                     <span
-                                        class="badge badge-danger navbar-badge">{{ auth()->user()->unreadnotifications->count() }}</span>
+                                        class="badge bg-danger navbar-badge">{{ auth()->user()->unreadnotifications->count() }}</span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end">
                                     <li>

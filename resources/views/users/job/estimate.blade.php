@@ -154,7 +154,7 @@
                                                             <button class="btn btn-success btn-sm mt-2"><i
                                                                 class="fas fa-check"></i></button></form> --}}
                                                             @else
-                                                                <p class="badge badge-info">
+                                                                <p class="badge bg-info">
                                                                     {{ __('user/job/estimate.signature_uploaded') }}</p>
                                                         @endif
                                                     </td>
