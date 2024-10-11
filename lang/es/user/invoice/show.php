@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'invoice_details' => 'Detalles de la Factura',
+    'invoice_information' => 'Información de la Factura',
+    'description' => 'Descripción:',
+    'warehouse' => 'Almacén:',
+    'quantity_hours' => 'Cantidad/Horas:',
+    'rate' => 'Tarifa:',
+    'total' => 'Total:',
+    'cost' => 'Costo:',
+    'margin_tax' => 'Impuesto sobre la Margen:',
+    'job_id' => 'ID de Trabajo:',
+    'status' => 'Estado:',
+    'unpaid' => 'No Pagado',
+    'paid' => 'Pagado',
+    'recurring' => 'Recurrente',
+    'drive_time' => 'Tiempo de Conducción:',
+    'labor_time' => 'Tiempo de Trabajo:',
+    'payments_and_deposits_input' => 'Entrada de Pagos y Depósitos:',
+    'amount_description' => 'Descripción de la Cantidad:',
+    'amount' => 'Cantidad:',
+    'note_to_customer' => 'Nota al Cliente:',
+    'go_back' => 'Volver Atrás',
+    'download_pdf' => 'Descargar PDF',
+    'pay_now' => 'Pagar ahora',
+];

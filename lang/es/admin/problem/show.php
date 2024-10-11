@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'problem_report_title' => 'Informe de Problema #',
+    'job_label' => 'Trabajo',
+    'created_by_label' => 'Creado por',
+    'location_label' => 'Ubicación',
+    'type_label' => 'Tipo',
+    'problem_date_label' => 'Fecha del Problema',
+    'investigator_label' => 'Investigador',
+    'result_of_investigation_label' => 'Resultado de la Investigación',
+    'suggestions_label' => 'Sugerencias',
+    'back_to_list' => 'Volver a la Lista',
+    'edit' => 'Editar',
+    'delete_confirm' => '¿Estás seguro de que deseas eliminar este Informe?',
+    // Edit
+    'edit_problem_report' => 'Editar Informe de Problema',
+    'job' => 'Trabajo:',
+    'location' => 'Ubicación:',
+    'location_supervisor' => 'Supervisor de Ubicación:',
+    'problem_date' => 'Fecha del Problema:',
+    'type_of_problem' => 'Tipo de Problema:',
+    'critical' => 'Crítico',
+    'high' => 'Alto',
+    'medium' => 'Medio',
+    'low' => 'Bajo',
+    'description_of_problem' => 'Descripción del Problema:',
+    'investigator_of_problem' => 'Investigador del Problema:',
+    'result_of_investigation' => 'Resultado de la Investigación:',
+    'suggestions' => 'Sugerencias:',
+    'update' => 'Actualizar',
+];

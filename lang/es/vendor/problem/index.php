@@ -1,0 +1,31 @@
+<?php
+
+return[
+    'job_name' => 'nombre del trabajo',
+    'report' => 'informe',
+    'location' => 'ubicación',
+    'type' => 'tipo',
+    'action' => 'acción',
+    'problem_report' => 'informe de problema',
+    'home' => 'hogar',
+    'new_report' => 'nuevo reporte',
+    'show' => 'espectáculo',
+    'edit' => 'editar',
+    'job' => 'trabajo',
+    'investigator' => 'Investigador',
+    'result_of_investigation' => 'resultado de la investigación',
+    'suggestions' => 'sugerencias',
+    'back_to_list' => 'volver a la lista',
+    'delete' => 'borrar',
+    'edit_problem_report' => 'editar informe de problema',
+    'edit_report' => 'editar informe',
+    'problem_date' => 'fecha del problema',
+    'update' => 'actualizar',
+    'location_supervisor' => 'supervisor de ubicacion',
+    'type_of_problem' => 'tipo de problema',
+    'description_of_problem' => 'Descripción del problema',
+    'investigator_of_problem' => 'investigador del problema',
+    'create_new_report' => 'crear nuevo informe',
+    'problem_reporting' => 'reportando problema',
+];
+?>

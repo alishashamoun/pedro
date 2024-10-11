@@ -1,0 +1,32 @@
+<?php
+    return [
+
+        'estimate_request' => 'solicitud de presupuesto',
+        'create_estimate_request' => 'crear solicitud de presupuesto',
+        's_n' => 's n',
+        'created_by' => 'creado por',
+        'action' => 'acción',
+        'name' => 'nombre',
+        'request' => 'pedido',
+        'phone' => 'teléfono',
+        'email' => 'correo electrónico',
+        'created_at' => 'Creado en',
+        'edit_estimate_request' => 'editar solicitud de presupuesto',
+        'home' => 'hogar',
+        'show' => 'espectáculo',
+        'edit' => 'editar',
+        'delete' => 'borrar',
+        'first_name' => 'nombre de pila',
+        'last_name' => 'apellido',
+        'phone_number' => 'número de teléfono',
+        'street_address' => 'Dirección',
+        'city' => 'ciudad',
+        'state' => 'estado',
+        'zip_code' => 'código postal',
+        'details' => 'detalles',
+        'back_to_users' => 'volver a los usuarios',
+        'picture(if_any)' => 'imagen (si la hay)',
+        'update_request' => 'solicitud de actualización',
+        'please_enter_details_of_requested_work_and/or_description_of_problem' => 'Por favor ingrese los detalles del trabajo solicitado y/o la descripción del problema.',
+    ];
+?>

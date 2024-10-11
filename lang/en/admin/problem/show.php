@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'problem_report_title' => 'Problem Report #',
+    'job_label' => 'Job',
+    'created_by_label' => 'Created By',
+    'location_label' => 'Location',
+    'type_label' => 'Type',
+    'problem_date_label' => 'Problem Date',
+    'investigator_label' => 'Investigator',
+    'result_of_investigation_label' => 'Result of Investigation',
+    'suggestions_label' => 'Suggestions',
+    'back_to_list' => 'Back to List',
+    'edit' => 'Edit',
+    'delete_confirm' => 'Are you sure you want to delete this Report?',
+    // Edit
+    'edit_problem_report' => 'Edit Problem Report',
+    'job' => 'Job:',
+    'location' => 'Location:',
+    'location_supervisor' => 'Location Supervisor:',
+    'problem_date' => 'Problem Date:',
+    'type_of_problem' => 'Type of Problem:',
+    'critical' => 'Critical',
+    'high' => 'High',
+    'medium' => 'Medium',
+    'low' => 'Low',
+    'description_of_problem' => 'Description of Problem:',
+    'investigator_of_problem' => 'Investigator of Problem:',
+    'result_of_investigation' => 'Result of Investigation:',
+    'suggestions' => 'Suggestions:',
+    'update' => 'Update',
+];
