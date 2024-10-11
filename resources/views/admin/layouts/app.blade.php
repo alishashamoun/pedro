@@ -6,10 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Admin | Dashboard</title>
-    <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
-
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -67,6 +65,11 @@
     <link rel="stylesheet" href="{{ asset('assets/custom.css') }}">
     {{-- custom js --}}
     <script src="{{ asset('js/style.js') }}"></script>
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 
     @yield('links')
 
@@ -570,14 +573,14 @@
                         </div>
 
                         <!-- Navigation Links -->
-                        <ul class="navbar-nav">
+                        {{-- <ul class="navbar-nav">
                             <li class="nav-item d-none d-sm-inline-block">
                                 <a href="{{ route('admin.dashboard') }}" class="nav-link">Home</a>
                             </li>
                             <li class="nav-item d-none d-sm-inline-block">
                                 <a href="#" class="nav-link">Contact</a>
                             </li>
-                        </ul>
+                        </ul> --}}
                     </div>
 
                     <!-- Right Section: Search, GitHub, Language, Notifications, Fullscreen, User -->
@@ -907,11 +910,7 @@
             });
         });
     </script>
-    <script>
-        $(function() {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
+
 
     @yield('scripts')
 

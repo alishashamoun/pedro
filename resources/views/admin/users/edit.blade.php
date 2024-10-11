@@ -56,13 +56,13 @@
                         <div class="col-xs-12 col-sm-12 col-md-12">
                             <div class="form-group">
                                 <strong>Password:</strong>
-                                <input class="form-control" type="password" name="password" required>
+                                <input class="form-control" type="password" name="password" >
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12">
                             <div class="form-group">
                                 <strong>Confirm Password:</strong>
-                                <input class="form-control" type="password" name="confirm-password" required>
+                                <input class="form-control" type="password" name="confirm-password" >
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12">

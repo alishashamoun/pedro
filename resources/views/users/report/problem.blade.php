@@ -34,12 +34,12 @@
                                     <thead>
                                         <tr>
 
-                                            
+
                                             <th>{{ __('user/problem/index.report') }}</th>
                                             <th>{{ __('user/problem/index.job_name') }}</th>
                                             <th>{{ __('user/problem/index.location') }}</th>
-                                            <th>{{ __('user/problem/index.type') }}</th>     
-                                            <th>{{ __('user/problem/index.actions') }}</th> 
+                                            <th>{{ __('user/problem/index.type') }}</th>
+                                            <th>{{ __('user/problem/index.actions') }}</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -86,7 +86,7 @@
     </div>
 
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 
 
 @endsection

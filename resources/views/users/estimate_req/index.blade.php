@@ -40,14 +40,14 @@
                                 <table id="example1" class="table table-bordered table-striped">
                                     <thead>
                                         <tr>
-                                              
+
 
 
                                             <th>{{ __('user/inspecrequest/index.request') }}</th>
                                             <th>{{ __('user/inspecrequest/index.name') }}</th>
                                             <th>{{ __('user/inspecrequest/index.phone') }}</th>
-                                            <th>{{ __('user/inspecrequest/index.email') }}</th>                 
-                                            <th>{{ __('user/inspecrequest/index.actions') }}</th> 
+                                            <th>{{ __('user/inspecrequest/index.email') }}</th>
+                                            <th>{{ __('user/inspecrequest/index.actions') }}</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -100,5 +100,5 @@
     </div>
 
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 @endsection

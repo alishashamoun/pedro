@@ -58,7 +58,7 @@
                       <td>
                         @if(!empty($user))
                         <?php $roles = $user->getRoleNames(); ?>
-                          <label class="badge badge-success">{{ $roles[0] }}</label>
+                          <label class="badge bg-success">{{ $roles[0] }}</label>
                         @endif
                       </td>
                       <td>
@@ -97,7 +97,6 @@
 
 <!-- End withdraw -->
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 <script type="text/javascript">
 $(function() {

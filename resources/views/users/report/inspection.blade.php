@@ -30,11 +30,11 @@
                             <table id="example1" class="table table-bordered table-striped">
                                 <thead>
                                     <tr>
-                                        
+
                                             <th>{{ __('user/inspection/index.location_name') }}</th>
                                             <th>{{ __('user/inspection/index.assigned_checklists') }}</th>
-                                             
-                                            <th>{{ __('user/inspection/index.actions') }}</th> 
+
+                                            <th>{{ __('user/inspection/index.actions') }}</th>
                                     </tr>
                                 </thead>
 
@@ -57,7 +57,7 @@
 
                                                     @else
                                                       <span class="font-weight-bold">
-                                                          
+
                                                           {{ __('user/inspection/index.waiting_for_response') }}
                                                         </span>
 
@@ -82,7 +82,7 @@
     </div>
 
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 
 
 @endsection
