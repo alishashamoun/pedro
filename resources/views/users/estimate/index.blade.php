@@ -44,7 +44,7 @@
                                             <th>Assigned Manager</th>
                                             <th>Status</th>
                                             <th>Actions</th>
-  
+
                                         </tr>
                                     </thead>
 
@@ -108,8 +108,8 @@
                                                         <td class="text-success"><strong>---</strong></td>
                                                     @endif
                                                     <td>
-                                                        <button type="button" class="btn btn-success" data-toggle="modal"
-                                                            data-target="#exampleModal{{ $jobs->id }}">
+                                                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                            data-bs-target="#exampleModal{{ $jobs->id }}">
                                                             Change Status
                                                         </button>
 
@@ -124,9 +124,9 @@
                                                             <div class="modal-header">
                                                                 <h5 class="modal-title" id="exampleModalLabel">Change Status
                                                                 </h5>
-                                                                <button type="button" class="close" data-dismiss="modal"
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                                     aria-label="Close">
-                                                                    <span aria-hidden="true">&times;</span>
+
                                                                 </button>
                                                             </div>
                                                             <div class="modal-body">
@@ -154,7 +154,7 @@
                                                             </div>
                                                             <div class="modal-footer">
                                                                 <button type="button" class="btn btn-secondary"
-                                                                    data-dismiss="modal">Close</button>
+                                                                    data-bs-dismiss="modal">Close</button>
                                                                 <button type="submit" class="btn btn-primary">Save
                                                                     changes</button>
                                                                 <a href="">

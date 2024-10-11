@@ -59,8 +59,8 @@
                                                             @endphp
                                                             {{-- @dd($reAssignItems) --}}
                                                             @if ($reAssignItems->count() > 0)
-                                                                <button class="btn btn-danger btn-sm" data-toggle="modal"
-                                                                    data-target="#rchecklistModal_">Re assigned</button>
+                                                                <button class="btn btn-danger btn-sm" data-bs-toggle="modal"
+                                                                    data-bs-target="#rchecklistModal_">Re assigned</button>
                                                                 <!-- Modal for Checklist Items -->
                                                                 <div class="modal fade" id="rchecklistModal_" tabindex="-1"
                                                                     role="dialog" aria-labelledby="checklistModalLabel"
@@ -73,9 +73,9 @@
                                                                                     Re-assigned Checklist for
                                                                                     {{ $shows->name }}
                                                                                 </h5>
-                                                                                <button type="button" class="close"
-                                                                                    data-dismiss="modal" aria-label="Close">
-                                                                                    <span aria-hidden="true">&times;</span>
+                                                                                <button type="button" class="btn-close"
+                                                                                    data-bs-dismiss="modal" aria-label="Close">
+
                                                                                 </button>
                                                                             </div>
                                                                             <div class="modal-body">
@@ -164,7 +164,7 @@
                                                                             <div class="modal-footer">
                                                                                 <button type="button"
                                                                                     class="btn btn-secondary"
-                                                                                    data-dismiss="modal">Close</button>
+                                                                                    data-bs-dismiss="modal">Close</button>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -176,8 +176,8 @@
                                                                 href="{{ route('responce.edit', $shows->id) }}">{{ __('vendor/responce/index.edit') }}</a>
 
                                                                 @elseif ($shows->inspectionChecklists->count() > 0)
-                                                            <button class="btn btn-sm btn-primary" data-toggle="modal"
-                                                                data-target="#achecklistModal_{{ $shows->id }}">Submit Responce</button>
+                                                            <button class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                                                                data-bs-target="#achecklistModal_{{ $shows->id }}">Submit Responce</button>
                                                             <!-- Modal for Checklist Items -->
                                                             <div class="modal fade"
                                                                 id="achecklistModal_{{ $shows->id }}" tabindex="-1"
@@ -190,9 +190,9 @@
                                                                                 id="checklistModalLabel">
                                                                                 Checklist Items for {{ $shows->name }}
                                                                             </h5>
-                                                                            <button type="button" class="close"
-                                                                                data-dismiss="modal" aria-label="Close">
-                                                                                <span aria-hidden="true">&times;</span>
+                                                                            <button type="button" class="btn-close"
+                                                                                data-bs-dismiss="modal" aria-label="Close">
+
                                                                             </button>
                                                                         </div>
                                                                         <div class="modal-body">
@@ -289,7 +289,7 @@
                                                                         <div class="modal-footer">
                                                                             <button type="button"
                                                                                 class="btn btn-secondary"
-                                                                                data-dismiss="modal">Close</button>
+                                                                                data-bs-dismiss="modal">Close</button>
                                                                         </div>
                                                                     </div>
                                                                 </div>

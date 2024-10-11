@@ -35,8 +35,8 @@
                                 <a href="{{ route('checklists.create') }}" class="btn btn-info ">
                                     Create/ Delete Sheet
                                 </a>
-                                <button type="button" class="btn btn-success" data-toggle="modal"
-                                    data-target="#exampleModal">
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
                                     Assign/ Update Checklist
                                 </button>
                                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
@@ -46,9 +46,9 @@
                                             <div class="modal-header">
                                                 <h5 class="modal-title" id="exampleModalLabel">Assign Checklist
                                                 </h5>
-                                                <button type="button" class="close" data-dismiss="modal"
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
+
                                                 </button>
                                             </div>
                                             <div class="modal-body">
@@ -97,7 +97,7 @@
                                             <div class="modal-footer">
 
                                                 <button type="button" class="btn btn-secondary"
-                                                    data-dismiss="modal">Close</button>
+                                                    data-bs-dismiss="modal">Close</button>
                                                 <button type="submit" class="btn btn-primary">Save
                                                     changes</button>
 
@@ -130,8 +130,8 @@
                                                         @endforeach
                                                     </td>
                                                     <td>
-                                                        <button class="btn btn-primary" data-toggle="modal"
-                                                            data-target="#checklistModal_{{ $shows->id }}">View
+                                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                                            data-bs-target="#checklistModal_{{ $shows->id }}">View
                                                             Checklist Items</button>
                                                         {{-- <a class="btn btn-info"
                                                             href="{{ route('location.show', $shows->id) }}">Show</a>
@@ -153,9 +153,9 @@
                                                                 <div class="modal-header">
                                                                     <h5 class="modal-title" id="checklistModalLabel">
                                                                         Checklist Items for {{ $shows->name }}</h5>
-                                                                    <button type="button" class="close"
-                                                                        data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal" aria-label="Close">
+
                                                                     </button>
                                                                 </div>
                                                                 <div class="modal-body">
@@ -174,7 +174,7 @@
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <button type="button" class="btn btn-secondary"
-                                                                        data-dismiss="modal">Close</button>
+                                                                        data-bs-dismiss="modal">Close</button>
                                                                 </div>
                                                             </div>
                                                         </div>

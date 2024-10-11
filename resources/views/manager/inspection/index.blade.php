@@ -32,8 +32,8 @@
                     </div> -->
                             <!-- /.card-header -->
                             <div class="card-header">
-                                <button type="button" class="btn btn-success" data-toggle="modal"
-                                    data-target="#exampleModal">
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
                                     {{ __('admin/inspection/index.new_inspection_sheet') }}
                                 </button>
                                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
@@ -43,9 +43,9 @@
                                             <div class="modal-header">
                                                 <h5 class="modal-title" id="exampleModalLabel">{{ __('admin/inspection/index.new_inspection_sheet') }}
                                                 </h5>
-                                                <button type="button" class="close" data-dismiss="modal"
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
+
                                                 </button>
                                             </div>
                                             <div class="modal-body">
@@ -64,7 +64,7 @@
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-success" id="add-checklist-item">{{ __('admin/inspection/index.add_checklist_item') }}</button>
                                                 <button type="button" class="btn btn-secondary"
-                                                    data-dismiss="modal">Close</button>
+                                                    data-bs-dismiss="modal">Close</button>
                                                 <button type="submit" class="btn btn-primary">{{ __('admin/inspection/index.save_changes') }}</button>
 
                                             </div>
@@ -103,8 +103,8 @@
                                                         <td>{{ $jobcat->users->name ?? '' }}</td>
                                                     @endif
                                                     <td>
-                                                        <button class="btn btn-primary" data-toggle="modal"
-                                                            data-target="#checklistModal_{{ $jobcat->id }}">{{ __('admin/inspection/index.view_checklist_items') }}</button>
+                                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                                            data-bs-target="#checklistModal_{{ $jobcat->id }}">{{ __('admin/inspection/index.view_checklist_items') }}</button>
                                                         <form action="{{ route('checklists.destroy', $jobcat->id) }}"
                                                             method="POST" class="d-inline">
                                                             @csrf
@@ -123,9 +123,9 @@
                                                                 <div class="modal-header">
                                                                     <h5 class="modal-title" id="checklistModalLabel">
                                                                         {{ __('admin/inspection/index.checklist_items_for') }} {{ $jobcat->name }}</h5>
-                                                                    <button type="button" class="close"
-                                                                        data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal" aria-label="Close">
+
                                                                     </button>
                                                                 </div>
                                                                 <div class="modal-body">
@@ -141,7 +141,7 @@
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <button type="button" class="btn btn-secondary"
-                                                                        data-dismiss="modal">Close</button>
+                                                                        data-bs-dismiss="modal">Close</button>
                                                                 </div>
                                                             </div>
                                                         </div>

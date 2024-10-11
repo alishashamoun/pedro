@@ -51,7 +51,7 @@
                         <div class="form-group">
 	                        <label>{{ __('user/changepass/index.new_password') }}</label>
 	                        <code>*</code>
-	                        <input name="newpassword" id="password" minlength="8" type="password" class="form-control" required>  
+	                        <input name="newpassword" id="password" minlength="8" type="password" class="form-control" required>
 	                    </div>
                         <div class="form-group">
 	                        <label>{{ __('user/changepass/index.confirm_password') }}</label>
@@ -107,7 +107,7 @@ $(function () {
 <!-- Page specific script -->
 <script>
 $(function () {
-    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    $(document).on('click', '[data-bs-toggle="lightbox"]', function(event) {
       event.preventDefault();
       $(this).ekkoLightbox({
         alwaysShowClose: true

@@ -92,23 +92,23 @@
                                     <!-- tabs A -->
                                     <ul class="nav nav-tabs justify-content-end" id="jobDetTabs" role="tablist">
                                         <li class="nav-item">
-                                            <a class="nav-link active" id="sum-tab" data-toggle="tab" href="#sum"
+                                            <a class="nav-link active" id="sum-tab" data-bs-toggle="tab" href="#sum"
                                                 role="tab" aria-controls="sum" aria-selected="true"><i
                                                     class="fas fa-list-alt fa-fw"></i> Summary</a>
                                         </li>
                                         {{-- <li class="nav-item">
-                                            <a class="nav-link" id="cut-tab" data-toggle="tab" href="#cut"
+                                            <a class="nav-link" id="cut-tab" data-bs-toggle="tab" href="#cut"
                                                 role="tab" aria-controls="cut" aria-selected="false"><i
                                                     class="fas fa-columns fa-fw"></i> Customer Flds</a>
                                         </li> --}}
                                         <li class="nav-item">
-                                            <a class="nav-link" id="pic-tab" data-toggle="tab" href="#pic"
+                                            <a class="nav-link" id="pic-tab" data-bs-toggle="tab" href="#pic"
                                                 role="tab" aria-controls="pic" aria-selected="false"><i
                                                     class="fas fa-image fa-fw"></i> Pics&nbsp;<span
                                                     class="circle">{{ isset($job_img) ? $job_img : 0 }}</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" id="doc-tab" data-toggle="tab" href="#doc"
+                                            <a class="nav-link" id="doc-tab" data-bs-toggle="tab" href="#doc"
                                                 role="tab" aria-controls="doc" aria-selected="false"><i
                                                     class="fas fa-file fa-fw"></i> Docs&nbsp;<span
                                                     class="circle">{{ isset($job_doc) ? $job_doc : 0 }}</span></a>
@@ -141,7 +141,7 @@
                                     <!-- tabs B -->
                                     <ul class="nav nav-tabs justify-content-end" id="jobInfoTabs" role="tablist">
                                         <li class="nav-item">
-                                            <a class="nav-link active" id="info-tab" data-toggle="tab" href="#info"
+                                            <a class="nav-link active" id="info-tab" data-bs-toggle="tab" href="#info"
                                                 role="tab" aria-controls="info" aria-selected="true"><i
                                                     class="fas fa-calendar fa-fw"></i> Scheduling</a>
                                         </li>
@@ -168,7 +168,7 @@
                                                     <div id="single-invoice" class="tab-pane fade show active">
                                                         <ul class="nav nav-tabs mt-4">
                                                             <li class="nav-item">
-                                                                <a class="nav-link active" data-toggle="tab"
+                                                                <a class="nav-link active" data-bs-toggle="tab"
                                                                     href="#products-services">Estimate</a>
                                                             </li>
                                                         </ul>

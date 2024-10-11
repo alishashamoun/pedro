@@ -33,8 +33,8 @@
             </div> -->
            <!-- /.card-header -->
             <div class="card-header">
-                <button type="button" class="btn btn-success" data-toggle="modal"
-                data-target="#exampleModal">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
                New Inspection Category
             </button>
             <div class="modal fade" id="exampleModal" tabindex="-1"
@@ -44,9 +44,9 @@
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Modal title
                             </h5>
-                            <button type="button" class="close" data-dismiss="modal"
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
                                 aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
+
                             </button>
                         </div>
                         <div class="modal-body">
@@ -62,7 +62,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary"
-                                data-dismiss="modal">Close</button>
+                                data-bs-dismiss="modal">Close</button>
                             <button type="submit" class="btn btn-primary">Save
                                 changes</button>
                             <a href="">

@@ -33,7 +33,7 @@
                     </div> -->
                             <!-- /.card-header -->
                             <div class="card-header">
-                                <a class="btn btn-success" data-toggle="tooltip" title="Create New Supply Request" href="{{ route('supply.create') }}"
+                                <a class="btn btn-success" data-bs-toggle="tooltip" title="Create New Supply Request" href="{{ route('supply.create') }}"
                                     class="btn btn-primary">{{ __('user/supply/index.create_supply_request') }}</a>
                             </div>
                             <!-- /.card-header -->
@@ -71,15 +71,15 @@
                                                     <td>
                                                         <form action="{{ route('supply.destroy', $supplies->id) }}"
                                                             method="POST">
-                                                            <a data-toggle="tooltip" title="Show Supply Request"
+                                                            <a data-bs-toggle="tooltip" title="Show Supply Request"
                                                                 href="{{ route('supply.show', $supplies->id) }}"
                                                                 class="btn btn-info">{{ __('user/supply/index.show') }}</a>
-                                                            <a data-toggle="tooltip" title="Edit Supply Request"
+                                                            <a data-bs-toggle="tooltip" title="Edit Supply Request"
                                                                 href="{{ route('supply.edit', $supplies->id) }}"
                                                                 class="btn btn-primary">{{ __('user/supply/index.edit') }}</a>
                                                             @csrf
                                                             @method('DELETE')
-                                                            <button data-toggle="tooltip" title="Delete Supply Request"
+                                                            <button data-bs-toggle="tooltip" title="Delete Supply Request"
                                                                 type="submit" class="btn btn-danger"
                                                                 onclick="return confirm('Are you sure you want to delete this Request?')">{{ __('user/supply/index.delete') }}</button>
                                                         </form>

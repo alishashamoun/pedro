@@ -48,27 +48,27 @@
                                                 </div>
                                                 <ul class="nav nav-tabs">
                                                     <li class="nav-item">
-                                                        <a class="nav-link active" data-toggle="tab"
+                                                        <a class="nav-link active" data-bs-toggle="tab"
                                                             href="#single-invoice">Single Invoice</a>
                                                     </li>
 
                                                     <li class="nav-item">
-                                                        <a class="nav-link" data-toggle="tab" href="#no-change">Not Billable</a>
+                                                        <a class="nav-link" data-bs-toggle="tab" href="#no-change">Not Billable</a>
                                                     </li>
                                                 </ul>
                                                 <div class="tab-content mt-3">
                                                     <div id="single-invoice" class="tab-pane fade show active">
                                                         <ul class="nav nav-tabs mt-4">
                                                             <li class="nav-item">
-                                                                <a class="nav-link active" data-toggle="tab"
+                                                                <a class="nav-link active" data-bs-toggle="tab"
                                                                     href="#products-services">Products & Services</a>
                                                             </li>
                                                             <li class="nav-item">
-                                                                <a class="nav-link" data-toggle="tab"
+                                                                <a class="nav-link" data-bs-toggle="tab"
                                                                     href="#drive-and-labor-times">Drive & Labor Times</a>
                                                             </li>
                                                             <li class="nav-item">
-                                                                <a class="nav-link" data-toggle="tab"
+                                                                <a class="nav-link" data-bs-toggle="tab"
                                                                     href="#expenses">Expenses</a>
                                                             </li>
                                                         </ul>

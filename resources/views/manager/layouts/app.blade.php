@@ -56,7 +56,7 @@
 
                 <!-- Language Dropdown Menu -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false">
+                    <a class="nav-link" data-bs-toggle="dropdown" href="#" aria-expanded="false">
                         @if (app()->getLocale() == 'en')
                             <img src="{{ asset('assets/imgs/united-states.png') }}" alt="United States Flag"
                                 width="32" height="auto">
@@ -88,7 +88,7 @@
 
                 <!-- Notifications Dropdown Menu -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false">
+                    <a class="nav-link" data-bs-toggle="dropdown" href="#" aria-expanded="false">
                         <i class="far fa-bell"></i>
                         <span
                             class="badge badge-danger navbar-badge">{{ auth()->user()->unreadnotifications->count() }}</span>

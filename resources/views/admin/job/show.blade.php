@@ -10,7 +10,7 @@
                 <div class="col-md-12 d-flex justify-content-between align-items-center">
                     <h1>Job Details</h1>
                     <!-- Back Button -->
-                    <a data-toggle="tooltip" data-placement="top" title="Go back to previous page"
+                    <a data-bs-toggle="tooltip" data-placement="top" title="Go back to previous page"
                     href="{{ url()->previous() }}" class="btn btn-primary">Back</a>
                 </div>
             </div>

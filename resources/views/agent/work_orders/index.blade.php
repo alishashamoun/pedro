@@ -78,7 +78,7 @@
                           </td>
                           @else
                           <td>
-                          <a href="#" class="orderdel btn btn-primary" data-toggle="modal" data-target="#orderDelModal{{ $workOrder->id }}" data-workorder-code="{{ $workOrder->code }}"  data-status="{{ $workOrder->status }}"> <i class="fas fa-truck"></i></a>
+                          <a href="#" class="orderdel btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderDelModal{{ $workOrder->id }}" data-workorder-code="{{ $workOrder->code }}"  data-status="{{ $workOrder->status }}"> <i class="fas fa-truck"></i></a>
                           </td>
                           @endif
                       </tr>
@@ -106,8 +106,8 @@
             <!-- Modal header -->
             <div class="modal-header">
                 <h5 class="modal-title" id="assignModalLabel">Order Deliverd</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
                 </button>
             </div>
 

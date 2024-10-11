@@ -193,8 +193,8 @@
                                                                 </span>
                                                             @else
                                                                 <button type="button" class="btn btn-success"
-                                                                    data-toggle="modal"
-                                                                    data-target="#exampleModal{{ $jobs->id }}">
+                                                                    data-bs-toggle="modal"
+                                                                    data-bs-target="#exampleModal{{ $jobs->id }}">
                                                                     {{ __('user/job/index.feedback') }}
                                                                 </button>
                                                             @endif
@@ -212,9 +212,9 @@
                                                                 <h5 class="modal-title" id="exampleModalLabel">
                                                                     {{ __('user/job/index.feedback') }}
                                                                 </h5>
-                                                                <button type="button" class="close" data-dismiss="modal"
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                                     aria-label="Close">
-                                                                    <span aria-hidden="true">&times;</span>
+
                                                                 </button>
                                                             </div>
                                                             <div class="modal-body">
@@ -301,7 +301,7 @@
                                                             </div>
                                                             <div class="modal-footer">
                                                                 <button type="button" class="btn btn-secondary"
-                                                                    data-dismiss="modal">{{ __('user/job/index.close') }}</button>
+                                                                    data-bs-dismiss="modal">{{ __('user/job/index.close') }}</button>
                                                                 <button type="submit"
                                                                     class="btn btn-primary">{{ __('user/job/index.save_changes') }}</button>
                                                                 <a href="">

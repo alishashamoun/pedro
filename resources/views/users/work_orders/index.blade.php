@@ -122,8 +122,8 @@
                         <!-- Modal header -->
                         <div class="modal-header">
                             <h5 class="modal-title" id="assignModalLabel">{{ __('user/work_order/index.assign_vendor') }}</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
                             </button>
                         </div>
 
@@ -158,8 +158,8 @@
                         <!-- Modal header -->
                         <div class="modal-header">
                             <h5 class="modal-title" id="assignModalLabel">{{ __('user/work_order/index.feedback') }}</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
                             </button>
                         </div>
 

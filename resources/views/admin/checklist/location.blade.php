@@ -59,11 +59,11 @@
                                                             @if ($shows->inspectionResponse->count() > 0)
                                                             <a class="btn btn-info"
                                                                 href="{{ route('adminresponse', $shows->id) }}">{{ __('admin/checklist/index.show_response') }}</a>
-                                                                <button class="btn btn-primary" data-toggle="modal"
-                                                            data-target="#checklistModal_{{ $shows->id }}">{{ __('admin/checklist/index.view_checklist_items') }}</button>
+                                                                <button class="btn btn-primary" data-bs-toggle="modal"
+                                                            data-bs-target="#checklistModal_{{ $shows->id }}">{{ __('admin/checklist/index.view_checklist_items') }}</button>
                                                             @else
-                                                            <button class="btn btn-primary" data-toggle="modal"
-                                                            data-target="#checklistModal_{{ $shows->id }}">{{ __('admin/checklist/index.view_checklist_items') }}</button>
+                                                            <button class="btn btn-primary" data-bs-toggle="modal"
+                                                            data-bs-target="#checklistModal_{{ $shows->id }}">{{ __('admin/checklist/index.view_checklist_items') }}</button>
                                                                 @endif
                                                     </td>
                                                     <!-- Modal for Checklist Items -->
@@ -75,9 +75,9 @@
                                                                 <div class="modal-header">
                                                                     <h5 class="modal-title" id="checklistModalLabel">
                                                                         {{ __('admin/checklist/index.checklist_items_for') }} {{ $shows->name }}</h5>
-                                                                    <button type="button" class="close"
-                                                                        data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal" aria-label="Close">
+
                                                                     </button>
                                                                 </div>
                                                                 <div class="modal-body">
@@ -96,7 +96,7 @@
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <button type="button" class="btn btn-secondary"
-                                                                        data-dismiss="modal">{{ __('admin/checklist/index.close') }}</button>
+                                                                        data-bs-dismiss="modal">{{ __('admin/checklist/index.close') }}</button>
                                                                 </div>
                                                             </div>
                                                         </div>

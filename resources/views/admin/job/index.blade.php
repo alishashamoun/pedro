@@ -99,19 +99,19 @@
                                                     </td>
                                                     <td class="d-flex">
                                                         <button type="button" class="btn-sm btn btn-success"
-                                                            data-toggle="modal"
-                                                            data-target="#managerModal{{ $jobs->id }}">
+                                                            data-bs-toggle="modal"
+                                                            data-bs-target="#managerModal{{ $jobs->id }}">
                                                             {{ __('admin/job/index.Assign') }}
                                                         </button>
-                                                        <a class="btn-sm btn btn-primary ml-1"
+                                                        <a class="btn-sm btn btn-primary mx-1"
                                                             href="{{ route('job.edit', $jobs->id) }}">{{ __('admin/job/index.Edit') }}</a>
                                                         <a class="btn-sm btn btn-secondary mx-1"
                                                             href="{{ route('job.show', $jobs->id) }}">Show</a>
 
                                                         @if ($jobs->ratings->count() > 0)
                                                             <button type="button" class="btn-sm btn btn-warning mx-1"
-                                                                data-toggle="modal"
-                                                                data-target="#ratingsModal{{ $jobs->id }}">
+                                                                data-bs-toggle="modal"
+                                                                data-bs-target="#ratingsModal{{ $jobs->id }}">
                                                                 {{ __('admin/job/index.Feedback') }}
                                                             </button>
                                                             <div class="modal fade" id="ratingsModal{{ $jobs->id }}"
@@ -123,9 +123,9 @@
                                                                             <h5 class="modal-title" id="exampleModalLabel">
                                                                                 Feedback
                                                                             </h5>
-                                                                            <button type="button" class="close"
-                                                                                data-dismiss="modal" aria-label="Close">
-                                                                                <span aria-hidden="true">&times;</span>
+                                                                            <button type="button" class="btn-close"
+                                                                                data-bs-dismiss="modal" aria-label="Close">
+
                                                                             </button>
                                                                         </div>
 
@@ -167,8 +167,8 @@
                                                                         </div>
                                                                         <div class="modal-footer">
                                                                             <button type="button" class="btn btn-secondary"
-                                                                                data-dismiss="modal">Close</button>
-                                                                            <button type="button" data-dismiss="modal"
+                                                                                data-bs-dismiss="modal">Close</button>
+                                                                            <button type="button" data-bs-dismiss="modal"
                                                                                 class="btn btn-primary">{{ __('admin/job/index.SaveChanges') }}</button>
 
                                                                         </div>
@@ -196,9 +196,9 @@
                                                                 <h5 class="modal-title" id="exampleModalLabel">Assign The
                                                                     Manager
                                                                 </h5>
-                                                                <button type="button" class="close" data-dismiss="modal"
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                                     aria-label="Close">
-                                                                    <span aria-hidden="true">&times;</span>
+
                                                                 </button>
                                                             </div>
                                                             <div class="modal-body">
@@ -227,7 +227,7 @@
                                                             </div>
                                                             <div class="modal-footer">
                                                                 <button type="button" class="btn btn-secondary"
-                                                                    data-dismiss="modal">Close</button>
+                                                                    data-bs-dismiss="modal">Close</button>
                                                                 <button type="submit"
                                                                     class="btn btn-primary">{{ __('admin/job/index.SaveChanges') }}</button>
                                                                 <a href="">

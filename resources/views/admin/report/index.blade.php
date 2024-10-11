@@ -33,8 +33,8 @@
                                                 </div> -->
                             <!-- /.card-header -->
                             <div class="card-header">
-                                <button type="button" class="btn btn-success" data-toggle="modal"
-                                    data-target="#moodReportModal">
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                    data-bs-target="#moodReportModal">
                                     {{ __('admin/moodreport/index.NewReport') }}
                                 </button>
 
@@ -47,9 +47,9 @@
                                             <div class="modal-header">
                                                 <h5 class="modal-title" id="moodReportModalLabel">Report Your
                                                     Mood</h5>
-                                                <button type="button" class="close" data-dismiss="modal"
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
+
                                                 </button>
                                             </div>
                                             <div class="modal-body">
@@ -134,8 +134,8 @@
                                                     <td>{{ isset($reports->created_at) ? $reports->created_at->format('F j, Y g:i A') : 'null' }}
                                                     </td>
                                                     {{-- <td>
-                                                        <button type="button" class="btn btn-success" data-toggle="modal"
-                                                            data-target="#exampleModal{{ $reports->id }}">
+                                                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                            data-bs-target="#exampleModal{{ $reports->id }}">
                                                             Edit
                                                         </button>
                                                          <form action="{{ route('task.destroy', $reports->id) }}"

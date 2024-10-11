@@ -72,7 +72,7 @@
                                                         <a href="{{ route('estimate_requests.show', $supplies->id) }}"
                                                             class="btn btn-info btn-sm ">{{ __('admin/estimatereq/index.show') }}</a>
                                                         <a href="{{ route('estimate_requests.vendors', $supplies->id) }}"
-                                                            class="btn btn-indigo btn-sm ml-1" data-toggle="tooltip"
+                                                            class="btn btn-indigo btn-sm ml-1" data-bs-toggle="tooltip"
                                                             data-placement="top" title="Send to suppliers"><i
                                                                 class="fas fa-arrow-circle-right"></i></a>
 

@@ -66,8 +66,8 @@
                         <td class="text-success"><strong>Completed</strong></td>
                         <td class="d-flex">
                             @if (optional($jobs->feedback)->count() > 0)
-                             <button type="button" class="btn btn-success mx-2 btn-sm" data-toggle="modal"
-                                 data-target="#exampleModal{{ $jobs->id }}">
+                             <button type="button" class="btn btn-success mx-2 btn-sm" data-bs-toggle="modal"
+                                 data-bs-target="#exampleModal{{ $jobs->id }}">
                                  Feedback
                              </button>
                              @endif
@@ -82,8 +82,8 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h5 class="modal-title" id="exampleModalLabel">Submitted Feedback</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
                                     </button>
                                 </div>
                                 <div class="modal-body">
@@ -94,7 +94,7 @@
                                     <!-- Add more fields as needed -->
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>

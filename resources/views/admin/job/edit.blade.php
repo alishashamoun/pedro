@@ -109,24 +109,24 @@
                                             <!-- tabs A -->
                                             <ul class="nav nav-tabs justify-content-end" id="jobDetTabs" role="tablist">
                                                 <li class="nav-item">
-                                                    <a class="nav-link active" id="sum-tab" data-toggle="tab"
+                                                    <a class="nav-link active" id="sum-tab" data-bs-toggle="tab"
                                                         href="#sum" role="tab" aria-controls="sum"
                                                         aria-selected="true"><i class="fas fa-list-alt fa-fw"></i>
                                                         {{ __('admin/job/edit.summary') }}</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" id="cut-tab" data-toggle="tab" href="#cut"
+                                                    <a class="nav-link" id="cut-tab" data-bs-toggle="tab" href="#cut"
                                                         role="tab" aria-controls="cut" aria-selected="false"><i
                                                             class="fas fa-columns fa-fw"></i>{{ __('admin/job/edit.customer_fields') }}</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" id="pic-tab" data-toggle="tab" href="#pic"
+                                                    <a class="nav-link" id="pic-tab" data-bs-toggle="tab" href="#pic"
                                                         role="tab" aria-controls="pic" aria-selected="false"><i
                                                             class="fas fa-image fa-fw"></i>
                                                         {{ __('admin/job/edit.pictures') }}&nbsp;</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" id="doc-tab" data-toggle="tab" href="#doc"
+                                                    <a class="nav-link" id="doc-tab" data-bs-toggle="tab" href="#doc"
                                                         role="tab" aria-controls="doc" aria-selected="false"><i
                                                             class="fas fa-file fa-fw"></i>
                                                         {{ __('admin/job/edit.documents') }}&nbsp;</a>
@@ -159,7 +159,7 @@
                                             <!-- tabs B -->
                                             <ul class="nav nav-tabs justify-content-end" id="jobInfoTabs" role="tablist">
                                                 <li class="nav-item">
-                                                    <a class="nav-link active" id="info-tab" data-toggle="tab"
+                                                    <a class="nav-link active" id="info-tab" data-bs-toggle="tab"
                                                         href="#info" role="tab" aria-controls="info"
                                                         aria-selected="true"><i class="fas fa-calendar fa-fw"></i>
                                                         {{ __('admin/job/edit.scheduling') }}</a>
@@ -188,7 +188,7 @@
                                                             <div id="single-invoice" class="tab-pane fade show active">
                                                                 <ul class="nav nav-tabs mt-4">
                                                                     <li class="nav-item">
-                                                                        <a class="nav-link active" data-toggle="tab"
+                                                                        <a class="nav-link active" data-bs-toggle="tab"
                                                                             href="#products-services">Invoice</a>
                                                                     </li>
                                                                 </ul>

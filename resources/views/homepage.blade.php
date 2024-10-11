@@ -16,7 +16,7 @@
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-9" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -28,7 +28,7 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="dropdown dropdown-notifications">
-              <a href="#notifications-panel" class="dropdown-toggle" data-toggle="dropdown">
+              <a href="#notifications-panel" class="dropdown-toggle" data-bs-toggle="dropdown">
                 <i data-count="0" class="glyphicon glyphicon-bell notification-icon"></i>
               </a>
 
@@ -59,7 +59,7 @@
 
     <script type="text/javascript">
       var notificationsWrapper   = $('.dropdown-notifications');
-      var notificationsToggle    = notificationsWrapper.find('a[data-toggle]');
+      var notificationsToggle    = notificationsWrapper.find('a[data-bs-toggle]');
       var notificationsCountElem = notificationsToggle.find('i[data-count]');
       var notificationsCount     = parseInt(notificationsCountElem.data('count'));
       var notifications          = notificationsWrapper.find('ul.dropdown-menu');

@@ -106,23 +106,23 @@
                                                             </a>
                                                         @else
                                                             <div class="btn-group btn-group-sm" role="group">
-                                                                <a data-toggle="tooltip" title="ask for quick pay"
+                                                                <a data-bs-toggle="tooltip" title="ask for quick pay"
                                                                     href="{{ route('vendor.quick_pay', ['id' => $workOrder->id]) }}"
                                                                     class="btn btn-primary mr-2"
                                                                     onclick="return confirm('Are you sure you want to Apply For Quick Pay?')">
                                                                     <i class="fa fa-hand-holding-usd"></i>
                                                                 </a>
-                                                                <a data-toggle="tooltip" title="add images and notes"
+                                                                <a data-bs-toggle="tooltip" title="add images and notes"
                                                                     href="{{ route('vendor.doc', ['id' => $workOrder->id]) }}"
                                                                     class="btn btn-warning mr-2">
                                                                     <i class="fa fa-plus"></i>
                                                                 </a>
-                                                                <a data-toggle="tooltip" title="Create Invoice"
+                                                                <a data-bs-toggle="tooltip" title="Create Invoice"
                                                                     href="{{ route('invoice.create', $workOrder->id) }}"
                                                                     class="btn btn-secondary mr-2">
                                                                     Create Invoice
                                                                 </a>
-                                                                <a data-toggle="tooltip" title="Notify the customer that the vendor is en route for the job"
+                                                                <a data-bs-toggle="tooltip" title="Notify the customer that the vendor is en route for the job"
                                                                     href="{{ route('vendor.alert', ['id' => $workOrder->job_id]) }}"
                                                                     class="btn btn-Indigo"
                                                                     style="background-color: #6610f2!important; color: white">
@@ -139,7 +139,7 @@
                                                                         style="background-color: #39cccc!important; color: black">Checked
                                                                         Out</span>
                                                                 @else
-                                                                    <a data-toggle="tooltip" title="attendance"
+                                                                    <a data-bs-toggle="tooltip" title="attendance"
                                                                         href="{{ route('vendor.attendance', ['id' => $workOrder->id]) }}"
                                                                         class="btn btn-sm btn-maroon"
                                                                         style="background-color: #d81b60!important; color: white">
@@ -148,7 +148,7 @@
                                                                 @endif
                                                             @endif
                                                         @endif
-                                                        <a data-toggle="tooltip" title="view details"
+                                                        <a data-bs-toggle="tooltip" title="view details"
                                                             href="{{ route('manage_work_orders.show', $workOrder->job_id) }}"
                                                             class="btn btn-sm btn-info">{{ __('vendor/manage_work_order/index.view') }}</a>
                                                     </td>

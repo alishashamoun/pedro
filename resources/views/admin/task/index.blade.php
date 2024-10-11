@@ -33,8 +33,8 @@
                                 </div> -->
                             <!-- /.card-header -->
                             <div class="card-header">
-                                <button type="button" class="btn btn-success" data-toggle="modal"
-                                    data-target="#exampleModal">
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
                                     {{ __('admin/task/index.new_task') }}
                                 </button>
                                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
@@ -44,9 +44,9 @@
                                             <div class="modal-header">
                                                 <h5 class="modal-title" id="exampleModalLabel">{{ __('admin/task/index.new_task') }}
                                                 </h5>
-                                                <button type="button" class="close" data-dismiss="modal"
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
+
                                                 </button>
                                             </div>
                                             <div class="modal-body">
@@ -102,7 +102,7 @@
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary"
-                                                    data-dismiss="modal">{{ __('admin/task/index.close') }}</button>
+                                                    data-bs-dismiss="modal">{{ __('admin/task/index.close') }}</button>
                                                 <button type="submit" class="btn btn-primary">{{ __('admin/task/index.save_changes') }}</button>
                                                 <a href="">
 
@@ -144,8 +144,8 @@
                                                     <td>{{ isset($jobcat->description) ? $jobcat->description : 'null' }}
                                                     </td>
                                                     <td>
-                                                        <button type="button" class="btn btn-success" data-toggle="modal"
-                                                            data-target="#exampleModal{{ $jobcat->id }}">
+                                                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                            data-bs-target="#exampleModal{{ $jobcat->id }}">
                                                             {{ __('admin/task/index.edit_task') }}
                                                         </button>
                                                         <form action="{{ route('task.destroy', $jobcat->id) }}"
@@ -164,9 +164,9 @@
                                                                 <div class="modal-header">
                                                                     <h5 class="modal-title" id="exampleModalLabel">{{ __('admin/task/index.edit_task') }}
                                                                     </h5>
-                                                                    <button type="button" class="close"
-                                                                        data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal" aria-label="Close">
+
                                                                     </button>
                                                                 </div>
                                                                 <div class="modal-body">
@@ -220,7 +220,7 @@
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <button type="button" class="btn btn-secondary"
-                                                                        data-dismiss="modal">{{ __('admin/task/index.close') }}</button>
+                                                                        data-bs-dismiss="modal">{{ __('admin/task/index.close') }}</button>
                                                                     <button type="submit" class="btn btn-primary">{{ __('admin/task/index.save_changes') }}</button>
 
                                                                 </div>

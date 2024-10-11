@@ -31,7 +31,7 @@
                         <div class="card">
                             <!-- /.card-header -->
                             <div class="card-header">
-                                <a class="btn btn-success" data-toggle="tooltip"
+                                <a class="btn btn-success" data-bs-toggle="tooltip"
                                 data-placement="top" title="Create new Work Order" href="{{ route('work_orders.create') }}">
                                     {{ __('admin/work_order/index.create_work_order') }} </a>
                             </div>
@@ -86,19 +86,19 @@
                                                         @endswitch
                                                     </td>
                                                     <td>
-                                                        <a href="{{ route('work_orders.edit', $workOrder->id) }}" data-toggle="tooltip"
+                                                        <a href="{{ route('work_orders.edit', $workOrder->id) }}" data-bs-toggle="tooltip"
                                                             data-placement="top" title="Edit this work order"
                                                             class="btn btn-primary"><i class="fas fa-edit"></i></a>
 
-                                                        <a href="{{ route('work_orders.details', $workOrder->id) }}" data-toggle="tooltip"
+                                                        <a href="{{ route('work_orders.details', $workOrder->id) }}" data-bs-toggle="tooltip"
                                                             data-placement="top" title="show details of this work order"
                                                             class="btn btn-info"><i class="fas fa-eye"></i></a>
 
-                                                        <a href="{{ route('work_orders.show', $workOrder->id) }}" data-toggle="tooltip"
+                                                        <a href="{{ route('work_orders.show', $workOrder->id) }}" data-bs-toggle="tooltip"
                                                             data-placement="top" title="add images and notes to this work order"
                                                             class="btn btn-warning"><i class="fas fa-paperclip"></i></a>
 
-                                                        <button type="button" class="btn btn-success open-map-modal" data-toggle="tooltip"
+                                                        <button type="button" class="btn btn-success open-map-modal" data-bs-toggle="tooltip"
                                                             data-placement="top" title="add/update location of this work order"
                                                             data-workorder-id="{{ $workOrder->id }}"><i
                                                                 class="fas fa-map-marker-alt"></i>
